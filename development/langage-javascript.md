@@ -29,7 +29,7 @@ String.prototype.toJadenCase = function () {
 
 ### Utilisation dans un projet ✔️
 
-[lien github]([...](https://github.com/QuentD36/wild_code_school/tree/master/Node))
+[Projet node en JS](https://github.com/QuentD36/wild_code_school/tree/master/Node)
 
 Description :
 
