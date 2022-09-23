@@ -16,12 +16,14 @@
 ### Un exemple de code commenté ❌ / ✔️
 
 ```javascript
+// Ce code est utilisé pour résoudre un challenge codewars :
+
 String.prototype.toJadenCase = function () {
-  return this.split(' ').map(el => {
-    const word = el.split('');
-    word[0] = word[0].toUpperCase();
-    return word.join('');
-  }).join(' ');
+  return this.split(' ').map(el => { // On récupère une string qu'on découpe en tableau de mots sur lequel on map
+    const word = el.split(''); // Pour chaque mot, on le découpe par lettre
+    word[0] = word[0].toUpperCase(); // On met la première lettre du mot en majuscule
+    return word.join(''); // Puis on reforme le mot qui est maintenant en uppercase
+  }).join(' '); // On reforme la phrase complète
 };
 ```
 
