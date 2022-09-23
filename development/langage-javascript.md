@@ -33,22 +33,32 @@ String.prototype.toJadenCase = function () {
 
 Description :
 
-### J'ai utilisé ce langage en production ❌ / ✔️
+### J'ai utilisé ce langage en production ❌
 
-[lien du projet](...)
+Pas encore.
 
 Description :
 
-### J'ai utilisé ce langage en environement professionnel ❌ / ✔️
+### J'ai utilisé ce langage en environement professionnel ❌
 
 Description :
 
 ## 🌐 J'utilise des ressources
 
-### Titre
+### Code Wars
 
-- lien
-- description
+- [Ici](https://www.codewars.com/)
+- Permet de réaliser des challenges d'algorithmes
+
+### Eloquent Javascript
+
+- [Ici](https://eloquentjavascript.net/)
+- Ressource générale sur le langage JS
+
+### Learn Javascript
+
+- [Ici](https://learnjavascript.online/)
+- Apprendre en pratiquant le JS
 
 ## 🚧 Je franchis les obstacles
 
