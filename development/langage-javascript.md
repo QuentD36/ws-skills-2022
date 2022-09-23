@@ -13,7 +13,7 @@
 
 ## 💻 Je code en Javascript
 
-### Un exemple de code commenté ❌ / ✔️
+### Un exemple de code commenté ✔️
 
 ```javascript
 // Ce code est utilisé pour résoudre un challenge codewars :
@@ -27,9 +27,9 @@ String.prototype.toJadenCase = function () {
 };
 ```
 
-### Utilisation dans un projet ❌ / ✔️
+### Utilisation dans un projet ✔️
 
-[lien github](...)
+[lien github]([...](https://github.com/QuentD36/wild_code_school/tree/master/Node))
 
 Description :
 
