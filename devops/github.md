@@ -1,16 +1,14 @@
 # GitHub
 
-> ❌ A travailler
-
-> ✔️ Auto validation par l'étudiant
+> ✔️ Outil utilisé
 
 ## 🎓 J'ai compris et je peux expliquer
 
-- l'initialisation d'un projet ❌ / ✔️
-- travailler avec des branches ❌ / ✔️
-- faire une PR ❌ / ✔️
-- utiliser git rebase pour faire des commits propres ❌ / ✔️
-- utiliser les gitHub actions ❌ / ✔️
+- l'initialisation d'un projet ✔️ (git init)
+- travailler avec des branches 📈
+- faire une PR 📈
+- utiliser git rebase pour faire des commits propres 📈
+- utiliser les gitHub actions 📈
 
 ## 💻 J'utilise
 
