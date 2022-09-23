@@ -1,22 +1,28 @@
 # Langage Javascript
 
-> ❌ A travailler
+> 📈 En progression concernant la phase algo
 
-> ✔️ Auto validation par l'étudiant
+> ✔️ Base du langage
 
 ## 🎓 J'ai compris et je peux expliquer
 
-- les `structures` de base du langage ❌ / ✔️
-- les normes `ecmascript` ❌ / ✔️
-- l'utilisation de l'`asynchrone` ❌ / ✔️
-- les spécifités du mot-clef `this` ❌ / ✔️
+- les `structures` de base du langage ✔️
+- les normes `ecmascript` ✔️ (ES5/ES6/ES7) 
+- l'utilisation de l'`asynchrone` ✔️ (Utilisation de async/await géré avec try/catch ou then/catch)
+- les spécifités du mot-clef `this` ✔️ (Accès aux propriétés de la classe concernée : this.name, this.city...)
 
 ## 💻 Je code en Javascript
 
 ### Un exemple de code commenté ❌ / ✔️
 
 ```javascript
-(e) => mc2;
+String.prototype.toJadenCase = function () {
+  return this.split(' ').map(el => {
+    const word = el.split('');
+    word[0] = word[0].toUpperCase();
+    return word.join('');
+  }).join(' ');
+};
 ```
 
 ### Utilisation dans un projet ❌ / ✔️
