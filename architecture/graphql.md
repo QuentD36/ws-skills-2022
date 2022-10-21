@@ -1,35 +1,56 @@
 # GraphQL
 
-> ❌ A travailler
-
-> ✔️ Auto validation par l'étudiant
+> ✔️ Compréhension
 
 ## 🎓 J'ai compris et je peux expliquer
 
-- la différence entre REST et GraphQL ❌ / ✔️
-- les besoins auxquels répond GraphQL ❌ / ✔️
-- la définition d'un schéma
-- Query ❌ / ✔️
-- Mutation ❌ / ✔️
-- Subscription ❌ / ✔️
+- la différence entre REST et GraphQL ✔️
+- les besoins auxquels répond GraphQL ✔️
+- la définition d'un schéma ✔️
+- Query ✔️
+- Mutation ✔️
+- Subscription 📈
 
 ## 💻 J'utilise
 
-### Un exemple personnel commenté ❌ / ✔️
+### Un exemple personnel commenté ✔️
 
-### Utilisation dans un projet ❌ / ✔️
+```
+// Query GraphQL 
 
-[lien github](...)
+export const GET_WILDERS = gql`
+  query GetAllWilders {
+    getAllWilders {
+      id
+      name
+      description
+      city
+      grades {
+        id
+        grade
+        skill {
+          id
+          title
+        }
+      }
+    }
+  }
+`;
+```
+
+### Utilisation dans un projet ✔️
+
+[Wilder Book avec GraphQL](https://github.com/QuentD36/ws-docker-quest3)
 
 Description :
 
-### Utilisation en production si applicable❌ / ✔️
+### Utilisation en production si applicable ❌
 
 [lien du projet](...)
 
 Description :
 
-### Utilisation en environement professionnel ❌ / ✔️
+### Utilisation en environement professionnel ❌
 
 Description :
 
